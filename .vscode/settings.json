@@ -1,0 +1,6 @@
+{
+  "workbench.editor.showTabs": true,
+  "editor.detectIndentation": true,
+  "editor.tabCompletion": "on",
+  "editor.renderWhitespace": "all"
+}
