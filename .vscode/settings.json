@@ -2,5 +2,9 @@
   "workbench.editor.showTabs": true,
   "editor.detectIndentation": true,
   "editor.tabCompletion": "on",
-  "editor.renderWhitespace": "all"
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 6,
+  "editor.insertSpaces": true,
+  "workbench.editor.tabSizing": "fit",
+  "editor.indentSize": "tabSize"
 }
