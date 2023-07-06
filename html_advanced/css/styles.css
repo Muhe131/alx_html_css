@@ -68,152 +68,68 @@ main
     display: flex;
     justify-content: center;
     margin: 3px;
-    height: 90vh;
+    height: 95vh;
 }
-
-#second-section
+main section
 {
-    border: 1px solid black;
-    width: 20vh;
+    border: 1px solid blue;
+    padding: 10px;
+    height: 90vh;
+    margin: 3px;
+    width: ;
+}
+section div
+{
+    border: 1px solid blue;
+    margin: 5px;
     padding: 5px;
     height: 20vh;
-
 }
-.first-section
+
+.button
 {
-    border: 1px solid black;
-    padding: 1px;
-    display: flex;
-
-
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin: 5px;
 }
-.first-section h1
+.button h1,p,button
 {
-    border: 1px solid blue;
-    margin: 2px;
+    border: 1px solid purple;
+    margin: 5px;
     padding: 5px;
     display: flex;
+    height: 20px;
     justify-content: space-between;
+    align-items: center;
     border-radius: 5px;
 }
-.first-section p
-{
-    border: 1px solid purple;
-    margin: 1px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-}
-.first-section button
+
+.media
 {
     border: 1px solid green;
-    margin: 4px;
-    align-items: center;
-    padding: 5px;
-    border-radius: 5px;
-}
-#third-section
-{
-    border: 1px solid black;
-    width:7px;
-    padding: 15px;
-    height: 110px;
-}
-#third-section h1
-{
-    border: 1px solid blue;
-    margin: 5px;
-    padding: 5px;
-    display: flex;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-}
-#third-section p
-{
-    border: 1px solid purple;
-    margin: 5px;
-    padding: 10px;
-    display: flex;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-}
-#third-section button
-{
-    border: 1px solid green;
-    margin: 5px;
-    padding: 12px;
-    display: inline-flex;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-}
-#second-section
-{
-    border: 1px solid black;
     margin: 10px;
-    padding: 10px;
-    width: 52vh;
-    height: 50vh;
-
-
+    height: 55vh;
 }
-#second-section h1
+.media div
 {
     border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    width: 52vh;
-    height: 50vh;
-    width
+    height: 10vh;
 }
-.first-section
+.media div img
 {
-    border: 1px solid black;
-    margin: 10px;
-    padding: px;
-    width: 50vh;
-
-
+   border: 1px solid green;
+   height: 5px;
+   border-radius: 5px;
 }
-
-.first-section
+.media div P
 {
-    width: 320px;
-    padding: 1px;
-    gap: 0px;
-    justify-content: center;
+   border: 1px solid blue;
+   height: 5px;
+   border-radius: 5px;
 }
-.first-section div
+.media div h1
 {
-    border: 1px solid black;
-    width: 320px;
-    padding: 1px;
-    height: 60vh;
+   border: 1px solid purple;
+   height: 5px;
+   border-radius: 5px;
 }
-
-{
-    border: 1px solid blue;
-    margin: 2px;
-    align-items: center;
-    padding: 5px;
-    justify-content: center;
-}
-.first-section img
-{
-
-}
-.first-section p
-{
-
-}
-.first-section h2
-{
-
-}
-
