@@ -1,0 +1,1 @@
+This Project Task teaches about the basics of CSS to syle the HTML webpages.
