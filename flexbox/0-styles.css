@@ -175,17 +175,22 @@
       width: 960px;
       margin-left: auto;
       margin-right: auto;
-      display: flex;
+      display: block;
     }
 
     /* Grid
         ============================= */
+        .row {
+          display: flex;
+        }
 
-      ul.row {
+    ul.row {
       margin: 0;
       padding: 0;
       list-style: none;
+      
     }
+
 
     /*.row::after {
       content: '';
