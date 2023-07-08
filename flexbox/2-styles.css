@@ -383,7 +383,7 @@
 
     /* Section Latest News
         ============================= */
-    .row {
+    .row h3 :target {
       flex-direction: row-reverse;
     }
     /*** 4. CARD ***/
