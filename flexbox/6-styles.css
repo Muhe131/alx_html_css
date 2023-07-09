@@ -220,7 +220,7 @@
       text-align: center;
       display: flex;
     }
-    .nav-item:target {
+    .nav .nav-item+.nav-item:target {
       margin: var(--nav-item-margin);
     }
     }
@@ -231,7 +231,7 @@
       font-size: var(--nav-item-font-size);
       letter-spacing: var(--nav-item-letter-spacing);
 
-      
+
     }
 
     .nav .nav-link {
