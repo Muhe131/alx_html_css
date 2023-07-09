@@ -385,8 +385,9 @@
 
     /* Card (all styles)
         ============================= */
-        /* Section Latest News
+      /* Section Latest News
         ============================= */
+
       .section-latest-news .row {
             flex-direction: row-reverse;
         }
