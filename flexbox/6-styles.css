@@ -221,7 +221,7 @@
       display: flex;
     }
     .nav .nav-item+.nav-item {
-      margin: var(--nav-item-margin);
+      margin: 0;
     }
     }
 
