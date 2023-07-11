@@ -180,7 +180,7 @@
 
     /* Grid
         ============================= */
-        .row {
+    .row .section-latest-news {
           display: flex;
         }
 
