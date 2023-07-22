@@ -149,4 +149,34 @@ button span::after {
  .qt::after {
       content: close-quote;
  }
- 
+ .tutorial {
+      /*border: 1px solid rgb(222, 11, 222);*/
+      width: 1340px;
+      height: 650px;
+ }
+ .popular {
+      text-align: center;
+      margin-top: 90px;
+      margin-bottom: 100px;
+ }
+ .tutorials {
+     /* border: 1px solid green;*/
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 300px;
+ }
+ .images {
+      position: relative;
+      width: 100%;
+
+ }
+ .philip {
+      display: flex;
+      justify-content: space-evenly;
+ }
+ .rating {
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+ }
