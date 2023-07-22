@@ -92,3 +92,28 @@ button span::after {
       right: -20px;
       transition: 0.5s;
 }
+.pros {
+      /*border: 1px solid red;*/
+      display: flex;
+      height: 535.5px;
+      justify-content: space-evenly;
+      align-items: center;
+      color: white;
+ }
+ .pros_heading {
+      text-align: center;
+      padding: 0;
+      margin-top: 0;
+ }
+ #Bruce {
+      border-radius: 50%;
+ }
+ q {
+      quotes: "\00AB" "\00bb" ;
+ }
+ q::before {
+      content: open-quote;
+ }
+ q::after {
+      content: close-quote;
+ }
