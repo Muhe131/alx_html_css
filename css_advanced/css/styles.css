@@ -285,3 +285,36 @@ button span::after {
       line-height: 24px;
       word-wrap: break-word;
  }
+ .footer {
+      /*border: 1px solid violet;*/
+      width: 1345px;
+      height: 200px;
+      left: 0px;
+      top: 3469px;
+      position: absolute;
+      background: url(../asset/images/footer_background.png)
+ }
+ .logo img {
+      font-size: 22px;
+      margin-top: 40px;
+      /*padding: 15px;*/
+ }
+ .foot {
+      display: flex;
+      justify-content: space-around;
+      /*align-items: center;*/
+ }
+ .social_icons {
+      margin-top: 40px;
+ }
+ .social_icons i {
+      font-size: 22px;
+      margin: 10px;
+      cursor: pointer;
+      color: white;
+ }
+ .copyright {
+      text-align: center;
+      padding:60px;
+      color: rgb(87, 87, 168);
+ }
