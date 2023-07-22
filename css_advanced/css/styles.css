@@ -117,3 +117,36 @@ button span::after {
  q::after {
       content: close-quote;
  }
+ .testimonial {
+      /*border: 1px solid blue;*/
+      display: flex;
+      width: 1340px;
+      height: 450px;
+      background-image:url(../asset/images/testimonial_background.png);
+ }
+ .avatar {
+      /*border: 1px solid red;*/
+      display: flex;
+      align-items: center;
+      width: 450px;
+       justify-content: end;
+ }
+ .testimony {
+      /*border: 1px solid green;*/
+      padding: 50px;
+      text-align: justify;
+      margin-top: 80px;
+      color: white;
+      font-size: 20px;
+ }
+
+ .qt {
+      quotes: "\00AB" "" ;
+ }
+ .qt::before {
+      content: open-quote;
+ }
+ .qt::after {
+      content: close-quote;
+ }
+ 
