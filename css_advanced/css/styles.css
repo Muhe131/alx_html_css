@@ -232,3 +232,56 @@ button span::after {
       right: -20px;
       transition: 0.5s;
  }
+ .faq {
+      /*border: 1px solid blue;*/
+      width: 930px;
+      height: 595px;
+      left: 219px;
+      top: 2750px;
+      position: absolute;
+ }
+ .FAQ {
+      left: 407px;
+      top: 0px;
+      position: absolute;
+      text-align: center;
+      color: #071629;
+      font-size: 25px;
+      font-family: Source Sans Pro;
+ }
+ .first {
+      /*border: 1px solid green;*/
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 50px;
+      padding: 10px;
+      height: 300px;
+ }
+
+ .second {
+     /* border: 1px solid blue;*/
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 50px;
+      padding: 10px;
+      height: 250px;
+ }
+ .howdoesthiswork {
+      color: #071629;
+      font-size: 16px;
+      font-family: Source Sans Pro;
+      font-weight: 700;
+      /*word-wrap: break-word;*/
+      text-align:left;
+ }
+ .lorem {
+      width: 350px;
+      color: rgba(7, 22, 41, 0.50);
+      font-size: 14px;
+      font-family: Source Sans Pro;
+      font-weight: 400;
+      line-height: 24px;
+      word-wrap: break-word;
+ }
