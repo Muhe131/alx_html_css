@@ -180,3 +180,55 @@ button span::after {
       justify-content: space-between;
       align-items:center;
  }
+ .free_membership {
+      /*border: 1px solid green;*/
+      width: 1340px;
+      height: 502px;
+      background-image:url(../asset/images/background@2x.png)
+ }
+ .free {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      color: #ffff;
+ }
+ .membership {
+      text-align: center;
+      padding: 50px;
+ }
+ .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      cursor: pointer;
+      margin: 50px;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+ }
+ button:hover {
+      background-color: green;
+ }
+ button:hover span {
+      padding-right: 25 px;
+ }
+ button:hover span::after {
+      opacity: 0;
+      right: 0;
+ }
+ button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+ }
+ button span::after {
+      content: '\oobb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+ }
