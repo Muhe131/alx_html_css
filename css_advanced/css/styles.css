@@ -1,0 +1,320 @@
+body {
+      /*border: 1px solid red;*/
+      width: 1340px;
+      height: 3668px;
+      padding: 0;
+      margin:0;
+}
+.header header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 1340px;
+      height: 59.5px;
+      margin-top: 0;
+}
+.nav-links {
+      /*border: 1px solid red;*/
+      padding: 5px;
+      font-size: larger;
+      display: flex;
+      padding: 10px;
+      gap: 20px;
+}
+.nav-links a {
+      text-decoration: none;
+      color: white;
+}
+a:hover {
+      color: red;
+}
+a:active {
+      color: blue;
+}
+.banner_and_header {
+     /* border: 1px solid green;*/
+      width: 1340px;
+      height: 1093px;
+      margin-right: 0;
+      background-image: url(../asset/images/main_background.png);
+}
+.get_schooled {
+      /*border: 1px solid red;*/
+      text-align: center;
+      height: 400px;
+      padding-top: 125px;
+}
+.feel {
+      /*border: 1px solid green;*/
+      display: flex;
+      justify-content:center;
+      gap: 40px;
+      color:antiquewhite;
+}
+button {
+      display: inline-block;
+      border: 4px solid rgb(248, 62, 248);
+      border-radius: 25px;
+      background-color: rgb(247, 47, 247);
+      color: #ffff;
+      text-align: center;
+      text-decoration: none;
+      padding: 20px;
+      font-family: sans-serif;
+      cursor: pointer;
+      margin: 5px;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+}
+button:hover {
+      background-color: green;
+}
+button:hover span {
+      padding-right: 25 px;
+}
+button:hover span::after {
+      opacity: 0;
+      right: 0;
+}
+button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+}
+button span::after {
+      content: '\oobb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+}
+.pros {
+      /*border: 1px solid red;*/
+      display: flex;
+      height: 535.5px;
+      justify-content: space-evenly;
+      align-items: center;
+      color: white;
+}
+.pros_heading {
+      text-align: center;
+      padding: 0;
+      margin-top: 0;
+}
+#Bruce {
+      border-radius: 50%;
+}
+q {
+      quotes: "\00AB" "\00bb" ;
+}
+q::before {
+      content: open-quote;
+}
+q::after {
+      content: close-quote;
+}
+.testimonial {
+      /*border: 1px solid blue;*/
+      display: flex;
+      width: 1340px;
+      height: 450px;
+      background-image:url(../asset/images/testimonial_background.png);
+}
+.avatar {
+      /*border: 1px solid red;*/
+      display: flex;
+      align-items: center;
+      width: 450px;
+       justify-content: end;
+}
+.testimony {
+      /*border: 1px solid green;*/
+      padding: 50px;
+      text-align: justify;
+      margin-top: 80px;
+      color: white;
+      font-size: 20px;
+}
+
+.qt {
+      quotes: "\00AB" "" ;
+}
+.qt::before {
+      content: open-quote;
+}
+.qt::after {
+      content: close-quote;
+}
+.tutorial {
+      /*border: 1px solid rgb(222, 11, 222);*/
+      width: 1340px;
+      height: 650px;
+}
+.popular {
+      text-align: center;
+      margin-top: 90px;
+      margin-bottom: 100px;
+}
+.tutorials {
+     /* border: 1px solid green;*/
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 300px;
+}
+.images {
+      position: relative;
+      width: 100%;
+
+}
+.philip {
+      display: flex;
+      justify-content: space-evenly;
+}
+.rating {
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+}
+.free_membership {
+      /*border: 1px solid green;*/
+      width: 1340px;
+      height: 502px;
+      background-image:url(../asset/images/background@2x.png)
+}
+.free {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      color: #ffff;
+}
+.membership {
+      text-align: center;
+      padding: 50px;
+}
+.btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      cursor: pointer;
+      margin: 50px;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+}
+button:hover {
+      background-color: green;
+}
+button:hover span {
+      padding-right: 25 px;
+}
+button:hover span::after {
+      opacity: 0;
+      right: 0;
+}
+button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+}
+button span::after {
+      content: '\oobb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+}
+.faq {
+      /*border: 1px solid blue;*/
+      width: 930px;
+      height: 595px;
+      left: 219px;
+      top: 2750px;
+      position: absolute;
+}
+.FAQ {
+      left: 407px;
+      top: 0px;
+      position: absolute;
+      text-align: center;
+      color: #071629;
+      font-size: 25px;
+      font-family: Source Sans Pro;
+}
+.first {
+      /*border: 1px solid green;*/
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 50px;
+      padding: 10px;
+      height: 300px;
+}
+
+.second {
+     /* border: 1px solid blue;*/
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 50px;
+      padding: 10px;
+      height: 250px;
+}
+.howdoesthiswork {
+      color: #071629;
+      font-size: 16px;
+      font-family: Source Sans Pro;
+      font-weight: 700;
+      /*word-wrap: break-word;*/
+      text-align:left;
+}
+.lorem {
+      width: 350px;
+      color: rgba(7, 22, 41, 0.50);
+      font-size: 14px;
+      font-family: Source Sans Pro;
+      font-weight: 400;
+      line-height: 24px;
+      word-wrap: break-word;
+}
+.footer {
+      /*border: 1px solid violet;*/
+      width: 1345px;
+      height: 200px;
+      left: 0px;
+      top: 3469px;
+      position: absolute;
+      background: url(../asset/images/footer_background.png)
+}
+.logo img {
+      font-size: 22px;
+      margin-top: 40px;
+      /*padding: 15px;*/
+}
+.foot {
+      display: flex;
+      justify-content: space-around;
+      /*align-items: center;*/
+}
+.social_icons {
+      margin-top: 40px;
+}
+.social_icons i {
+      font-size: 22px;
+      margin: 10px;
+      cursor: pointer;
+      color: white;
+}
+.copyright {
+      text-align: center;
+      padding:60px;
+      color: rgb(87, 87, 168);
+}
