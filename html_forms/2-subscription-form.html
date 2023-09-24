@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<HTml>
+      <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <title>Subscription Form</title>
+      </head>
+      <style>
+        body {
+            font-family: sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin: 1em auto;
+        }
+        form {
+            margin: 0 auto;
+            width: 60vw;
+        }
+        input {
+            display: block;
+            margin: 10px;
+        }
+        fieldset {
+            border: none;
+        }
+        div input {
+            display: inline;
+        }
+      </style>
+      <body>
+        <h1>Subscription Form</h1>
+            <form action="" method="post">
+                <fieldset>
+                    <label for="name">Name: 
+                        <input type="text" required>
+                    </label>
+                    <label for="email">Email:
+                        <input type="email" required>
+                    </label>
+                    <label for="subscription-preference">Subscription Preference
+                    <div class="radio-buttons">
+                        <input type="radio" name="subscription-preference" id="monthly" value="monthly" required>
+                        <label for="monthly">Monthly</label>
+                        <input type="radio" name="subscription-preference" id="yearly" value="yearly" required>
+                    <label for="yearly">Yearly</label>
+                    </div>
+                        <input type="submit" value="Subscribe">
+                    </label>
+                    </fieldset>
+            </form>
+      </body>
+</HTml>

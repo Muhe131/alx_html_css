@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<HTml>
+
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Feedback Form</title>
+</head>
+<style>
+      body {
+            font-family: sans-serif;
+      }
+
+      h1 {
+            text-align: center;
+            margin: 1em auto;
+      }
+
+      form {
+            margin: 0 auto;
+            width: 60vw;
+      }
+
+      input {
+            display: block;
+            margin: 10px;
+      }
+
+      fieldset {
+            border: none;
+      }
+
+      div input {
+            display: inline;
+      }
+</style>
+
+<body>
+      <h1>Feedback Form</h1>
+      <form action="/feedback" method="post" name="feedback-form">
+            <fieldset>
+                  <label for="name">Name:
+                        <input type="text" required>
+                  </label>
+                  <label for="email">Email:
+                        <input type="email" required>
+                  </label>
+                  <label for="feedback-options">Feedback Options
+                        <div class="checkboxes">
+                              <input type="checkbox" name="feedback-options[]" id="excellent" value="excellent">
+                              <label for="excellent">Excellent</label>
+
+                              <input type="checkbox" name="feedback-options[]" id="good" value="good">
+                              <label for="good">Good</label>
+
+                              <input type="checkbox" name="feedback-options[]" id="average" value="average">
+                              <label for="average">Average</label>
+
+                              <input type="checkbox" name="feedback-options[]" id="poor" value="poor">
+                              <label for="poor">Poor</label>
+                        </div>
+                        <label for="file-upload">File Upload</label>
+                        <input type="file" name="file-upload" id="file-upload" required>
+
+                        <input type="submit" value="submit">
+                  </label>
+            </fieldset>
+      </form>
+</body>
+
+</HTml>

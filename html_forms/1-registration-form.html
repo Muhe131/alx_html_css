@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <title>Registration Form</title>
+      </head>
+    <style> 
+    h1 {
+        font: 35px sans-serif;
+        text-align: center;
+    }
+    label {
+         display: block;
+    }
+    body {
+         font: 1.4rem sans-serif;
+         padding: 0.5em;
+         margin: 0;
+    }
+    form {
+        position: relative;
+        width: 540px;
+        height: 498px;
+        margin: 0 auto;
+        padding: 1em;
+    }
+    fieldset {
+        border: none;
+    }
+    button {
+        margin: 1rem 0;
+        width: 20vw;
+    }
+    </style>
+      <body>
+        <h1>Registration Form</h1>
+        <form action="" method="post">
+            <fieldset>
+                <label for="name">Name:
+                    <input type="text" name="name" id="name" required>               </label>
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" required>
+                </label>
+                <label  for="password">Password:
+                    <input type="password" name="password" id="password" pattern="[a-z0-5]{8,}">
+                </label>
+                <label for="confirm-password">Confirm-password:
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </label>
+                <button type="submit" value="Register">Register</button>
+            </fieldset>
+        </form>
+      </body>
+</html>
